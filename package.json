@@ -1,0 +1,30 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "take notes",
+  "main": "db.js",
+  "dependencies": {
+    "app": "^0.1.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "init": "^0.1.2",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --verbose test/*",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohhhhhwhen/Note-Taker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohhhhhwhen/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/ohhhhhwhen/Note-Taker#readme"
+}
