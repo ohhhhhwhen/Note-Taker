@@ -3,12 +3,13 @@
 const noteTables = require('../db/db');
 
 module.exports = app => {    
-    app.get("/api/notes", (req, res) => res.json(noteTables));
+    app.get("/api/notes", (req, res) => res.json(noteTables)); 
+    app.post("/api/notes/:id", (req,res) => res.json(noteTables));
     
     app.post("/api/notes", (req, res) => {
       const newNotes = req.body;
       noteTables.push(newNotes);
-      res.json(newNotes);
+      return res.json(newNotes);
     });
 
     app.delete('/api/notes/:id', (req, res) => {
