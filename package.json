@@ -5,14 +5,18 @@
   "main": "db.js",
   "dependencies": {
     "app": "^0.1.0",
+    "clean-css": "^4.2.3",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
     "init": "^0.1.2",
+    "js-yaml": "^3.13.1",
+    "lodash": "^4.17.15",
     "nodemon": "^2.0.2",
     "path": "^0.12.7",
     "require": "^2.4.20",
     "uglify": "^0.1.5",
-    "uglify-js": "^3.7.7"
+    "uglify-js": "^3.7.7",
+    "underscore.string": "^3.3.5"
   },
   "devDependencies": {},
   "scripts": {
