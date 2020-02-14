@@ -5,7 +5,6 @@ const $noteText = $('.note-textarea');
 const $saveNoteBtn = $('.save-note');
 const $newNoteBtn = $('.new-note');
 const $noteList = $('.list-container .list-group');
-let idCount = 0;
 
 // activeNote is used to keep track of the note in the textarea
 let activeNote = {};
@@ -54,11 +53,9 @@ const renderActiveNote = function() {
 
 // Get the note data from the inputs, save it to the db and update the view
 const handleNoteSave = function() {
-  ++idCount;
   const newNote = {
     title: $noteTitle.val(),
-    text: $noteText.val(),
-    id: idCount
+    text: $noteText.val()
   };
 
   saveNote(newNote).then(function(data) {
