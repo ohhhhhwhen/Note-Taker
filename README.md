@@ -9,7 +9,7 @@
 
 ## Deployed Repo
 * HTML
- https://ohhhhhwhen.github.io/Note-Taker/
+ https://note-taker-owen.herokuapp.com/
 
 ## Assignment info
 Working with routes for the assignment. With a given public
